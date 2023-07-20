@@ -28,7 +28,7 @@ class GuestFormActivity : AppCompatActivity(), View.OnClickListener {
 
     override fun onClick(v: View) {
         if(v.id == R.id.button_save){
-
+            //ViewModel.save(GuestModel(10, "x", false))
         }
     }
 }
